@@ -11,3 +11,8 @@ nav {padding:10px}
 nav{margin-bottom:30px}
 
 
+.flexbox {display:flex; background-color: white; border-radius: 1em; margin: 25px}
+.flexbox article{padding:20px}
+
+.flexbox2{display:flex; background-color: white; border-radius: 1em;}
+.flexbox div,.flexbox2 div {margin: 25px }
