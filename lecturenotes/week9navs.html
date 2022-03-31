@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+               .row1{
+
+               background-color: #000000; 
+               color: white;
+               display: flex;
+              justify-content: flex-end; /* Flex end pushes it to the right */
+
+               }
+
+               .row2{
+
+                background-color: #000000; 
+                color: white;
+                display: flex;
+                justify-content: space-around;
+
+                 }
+             .row1 div, .row2 div, .row3 div{ /* Gave space in the box */
+              margin: 10px 
+                             }
+
+            .row3{
+
+                display:flex; 
+                background-color: black; 
+                color: white; 
+                margin-top: 10 px;
+                justify-content: space-between; /* Justify content is always on the flex row */
+
+
+            }
+
+            .firstinnerflex{ display: flex;}
+
+
+           
+
+
+    </style>
+</head>
+<body>
+    <div class="row1">
+        <div> Home  </div>
+
+        <div> About us </div>
+
+
+        <div>  Products  </div>
+
+        <div> Contact </div>
+
+    </div>
+
+
+
+
+    <div class="row2">
+        <div> Home  </div>
+
+        <div> About us </div>
+
+
+        <div>  Products  </div>
+
+        <div> Contact </div>
+
+    </div>
+
+    
+
+
+
+<div class="row3">
+    <div>Col 1</div>
+    <div>Col 2</div>
+</div>
+
+
+<div class="firstinnerflex">
+    <div> Home  </div>
+    <div> About us </div>
+    <div>  Products  </div>
+    <div> Contact </div>
+
+</div>
+
+<div>
+<div> Twitter</div>
+<div> Facebook</div>
+
+</div>
+
+</body>
+</html>
