@@ -17,7 +17,8 @@ nav{margin-bottom:30px}
 .flexbox2{display:flex; background-color: white; border-radius: 1em;}
 .flexbox div,.flexbox2 div {margin: 25px }
 .imgone{max-width:100%;} 
-
+.flexbox2{display: flex; 
+    flex-wrap: wrap;}
 @media only screen and (max-width: 600px) {nav a{min-width:600%; display:block;} span{display:none}}
 
  
