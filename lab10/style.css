@@ -1,0 +1,23 @@
+
+h1{color: #FF96C5;}
+body {background-color: #8DD7BF; }
+p{color: #FF5768;} 
+a {color:#0065A2;}
+nav{background-color: #FF6F68;}
+nav a {color: #800000}
+nav a:hover{background-color: #74737A}
+
+nav {padding:10px}
+nav{margin-bottom:30px}
+
+
+.flexbox {display:flex; background-color: white; border-radius: 1em; margin: 25px}
+.flexbox article{padding:20px}
+
+.flexbox2{display:flex; background-color: white; border-radius: 1em;}
+.flexbox div,.flexbox2 div {margin: 25px }
+
+
+@media only screen and (max-width: 600px) {nav a{min-width:600%; display:block;} span{display:none}}
+
+ 
