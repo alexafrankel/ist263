@@ -1,0 +1,31 @@
+/*Week Six */
+p{font-size: 100%;font-family:Georgia, 'Times New Roman', Times, serif;}
+h1{font-size: .3 em}
+p a{color: hotpink;} /* Makes link go pink, descendant selector*/
+p, a {color:purple;}  /* Makes everything in p go purple */
+
+.firstclass {color: blue; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body{background-color: aqua;} /* makes background aqua */
+
+
+/* Week seven */
+a:hover{color:brown;} /* Pseudo selector: applies style to state of element makes the amazon link turn brown hover over and white after visited */
+a:visited {color: hotpink;}
+
+body{background-image: url("../Images/twopractice.jpg");} /* Makes backgrond image */
+
+.practiceflexbox1 {display:flex; background-color:white; border-radius: 1em; margin:25px;padding:20px;}
+
+.flexbox2 {display:flex; background-color:white; border-radius: 1em; margin:25px;padding:20px;}
+
+.flexboxheading {display:flex; background-color:white; border-radius: 1em; margin:25px;padding:20px;}
+
+
+/* Ask about the flex box article. Badically this about divding and sectioning off our webpage. 
+the div's divide up each section. a flexbox then creates the box itself*/ 
+
+/* Week Eight */
+
+
+/* Getting confusing here a little */ 
+.welcome{display:flex; flex-wrap:wrap;justify-content:center;}
