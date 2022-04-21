@@ -43,10 +43,12 @@ nav{margin-bottom:30px}
 .articletwo{flex:1; order:2;}
 .artcilethree{flex:1; order:1;}
 
+
 .sneaker{width:250px; height:250px;}
-.img1{width:250px;height:250px;}
+.img1{width:200px;height:2px;}
 .lip{width:250px;height:250px;}
-.sneaker,.img1,.lip{padding:20px}
+.sneaker,.img1,.lip{padding:20px} 
+
 
 /*end homepage */
 
