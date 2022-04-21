@@ -1,4 +1,4 @@
-body{background-color:#ff04ec;}
+body{background-color:#ff04ec;padding:0px;}
 body{font-family:sans-serif;}
 
 
@@ -27,13 +27,13 @@ nav{margin-bottom:30px}
 
 /* all my css homepage */
 
-.homepagetitle{background-color: black;margin:30px; padding:50px;}
+.homepagetitle{background-color: black;margin:30px 0; padding:50px;}
 .welcome{color:#ff04ec;text-align:center;}
 .welcome2{color:orange;text-align:center;}
     
 .myintro{background-color:#ff04ec; margin:30px;padding:50px;text-align:center ;}
 
-.blog{background-color:orange; margin:30px;padding:50px;text-align:center;}
+.blog{background-color:orange; margin:30 0;padding:50px;text-align:center;}
 .signmeup {margin:20px;}
 
 .homeimages{display:flex; padding:20px;text-align:center}
@@ -45,7 +45,7 @@ nav{margin-bottom:30px}
 
 
 .sneaker{width:250px; height:250px;}
-.img1{width:200px;height:2px;}
+.img1{width:250px;height:250px;}
 .lip{width:250px;height:250px;}
 .sneaker,.img1,.lip{padding:20px} 
 
