@@ -1,0 +1,128 @@
+body{background-color:#ff04ec;padding:0px;margin:0px;}
+body{font-family:sans-serif;}
+
+
+@media only screen and (max-width: 600px) {nav a{ display:block;} span{display:none}}
+
+
+nav{background-color: orange;}
+nav a{color:black;}
+
+nav {padding:10px}
+nav{margin-bottom:30px}
+
+#skip{position:absolute;
+    left: -999px; 
+    background-color: orange;
+    padding: 5px
+}
+
+#skip:focus{
+    left:10px
+}
+
+
+
+
+
+/* all my css homepage */
+
+.homepagetitle{background-color: black;margin:30px 0; padding:50px;}
+.welcome{color:#ff04ec;text-align:center;}
+.welcome2{color:orange;text-align:center;}
+    
+.myintro{background-color:#ff04ec; margin:30px;padding:50px;text-align:center;}
+
+.blog{background-color:orange; margin:30 0;padding:50px;text-align:center;}
+.signmeup {margin:20px;}
+
+.homeimages{display:flex; padding:20px;text-align:center;justify-content:space-evenly;}
+.articleone, .artciletwo, .articlethree{margin:20px;}
+
+.articleone{flex:1;order:3}
+.articletwo{flex:1; order:2;}
+.artcilethree{flex:1; order:1;}
+
+
+
+
+/*end homepage */
+
+
+/* WORK ON SHOP PAGE */
+.shopheader{background-color:black;margin-top:30px; margin-bottom:30px;padding:30px;}
+.hatheader{ color:orange;justify-content:center;text-align:center;}
+
+.subheader2{display:flex; background-color:#ff04ec;margin:20px;padding:4px;}
+.subtextshop{flex:1;color:black;text-align:center;}
+
+
+.shopintro{display:flex; background-color: orange; text-align:center;margin:30px 0; padding:50px;}
+
+
+.overallsmiley {display:flex;margin-right:10px; background-color: #ff04ec;align-items:center; padding:10px;}
+.overallsmiley h3{text-align:center;}
+.smileydescription{padding:20px;justify-content:right;}
+.clear1{ clear:both;}
+
+/* Where I would say display:flex after do Justify-content: flex-end; */ /*margin-right:10px*/
+
+.overalllip{display:flex;margin: 0px; background-color:orange;align-items:center; padding:20px;}
+.overalllip h3{text-align:center;}
+.lipdescription{padding:20px;justify-content:flex-start;}
+.clear2{ clear:both;}
+
+.overallcamo{display:flex;margin-right:10px; background-color:#ff04ec;align-items:center;padding:20px;}
+.overallcamo h3{text-align:center;}
+.camodescription{padding:20px;justify-content:right;}
+.clear3{ clear:both;}
+
+
+
+
+/* Overall divs {margin:px} */ 
+
+
+
+.smiley1{width:250px; height:250px;}
+.hat{width:250px;height:250px;}
+.camo{width:250px;height:250px;}
+
+
+
+/* End SHOP PAGE */
+
+
+/*Blog Css */
+
+
+/*use flex wrap for my images  images should all be in flex box*/
+
+.blogheader{ background-color:#ff04ec; margin:30px;padding:50px;text-align:center ;}
+
+.trendback{background-color:#ff04ec; margin:30px;padding:50px;text-align:center;}
+.bloghat{width:250px; height:250px;}
+
+
+.bottom{ display:flex; background-color:#ff04ec; margin:30px;padding:50px;text-align:center ;}
+.stress{flex:1;background-color:orange;text-align:center}
+.mindfull{width:250px; height:250px;}
+
+
+.procreate{flex:1;background-color:#ff04ec;text-align:center}
+.blog101{width:250px; height:250px;}
+
+
+
+/* Contact page */ 
+.header{text-align:center;}
+.googlemap{text-align:center;}
+.requestform{text-align:center;}
+.imageform{display:flex; margin:500px;}
+.requestform1{flex:1; padding:10px;}
+.contactimage{flex:1;}
+label,input{margin:10px;}
+
+
+
+
