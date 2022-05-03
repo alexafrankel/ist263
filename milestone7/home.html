@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="6.css">
     <title>Document</title>
+    <script> 
+
+
+      function SubscriberMessage(myformid) {
+        alert("Hey there! Thanks for subscribing! A confirmation email was sent to"+myformid)
+ }
+
+      
+      
+
+    
+      
+      
+      
+      </script>
 </head>
 <body>
 
@@ -50,8 +65,8 @@
     <div class="enteremail">
     <form action="https://formspree.io/f/xwkyoqkl" method="post">
     <label for="Email"> Enter Your Email Here</label>
-    <input type = "text" name="Email" id= "Email"> <br>
-    <input class="signmeup" type="submit" value="Sign me up!">  
+    <input type = "text" id="myformid"> <name="Email" id= "Email"> <br>
+    <input class="signmeup"  type="submit" value="Sign me up!" onclick="SubscriberMessage();">  
     </form>
     </div>
   
