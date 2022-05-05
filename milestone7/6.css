@@ -2,10 +2,22 @@ body{background-color:#ff04ec;padding:0px;margin:0px;}
 body{font-family:sans-serif;}
 
 
-@media only screen and (max-width: 600px) {nav a{ display:block;} span{display:none}}
+@media only screen and (max-width: 600px) {
+    nav a{ display:block;} 
+    span{display:none}
+    .homeimages{display:block;}
+    .artcilethree{margin-left:20px; text-align:left;}
 
 
-nav{background-color: orange;}
+
+}
+
+
+
+
+nav{background-color: orange;text-align: center;}
+
+
 nav a{color:black;}
 
 nav {padding:10px}
@@ -36,11 +48,11 @@ nav{margin-bottom:30px}
 .blog{background-color:orange; margin:30 0;padding:50px;text-align:center;}
 .signmeup {margin:20px;}
 
-.homeimages{display:flex; padding:20px;text-align:center;justify-content:space-evenly;}
+.homeimages{display:flex; padding:20px;text-align:center; flex-wrap:wrap;}
 .articleone, .artciletwo, .articlethree{margin:20px;}
 
 .articleone{flex:1;order:3}
-.articletwo{flex:1; order:2;}
+.articletwo{flex:1; order:2; padding:20px;}
 .artcilethree{flex:1; order:1;}
 
 
@@ -117,10 +129,13 @@ nav{margin-bottom:30px}
 /* Contact page */ 
 .header{text-align:center;}
 .googlemap{text-align:center;}
+
+
 .requestform{text-align:center;}
-.imageform{display:flex; margin:500px;}
-.requestform1{flex:1; padding:10px;}
-.contactimage{flex:1;}
+
+.contactbottom{display:flex; flex-wrap:wrap; justify-content:center;}
+.requestform1{padding:10px;text-align:center;margin-right:30px;}
+.requestform2{padding:10px;}
 label,input{margin:10px;}
 
 
