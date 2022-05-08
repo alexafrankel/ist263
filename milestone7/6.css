@@ -5,8 +5,9 @@ body{font-family:sans-serif;}
 @media only screen and (max-width: 600px) {
     nav a{ display:block;} 
     span{display:none}
-    .homeimages{display:block;}
-    .artcilethree{margin-left:20px; text-align:left;}
+    .homeimages{display:block; padding:20px;}
+   .articlethree{ text-align:center; margin-left:60px; padding-left:60px; 
+padding-right:60px;} 
 
 
 
@@ -52,7 +53,7 @@ nav{margin-bottom:30px}
 .articleone, .artciletwo, .articlethree{margin:20px;}
 
 .articleone{flex:1;order:3}
-.articletwo{flex:1; order:2; padding:20px;}
+.articletwo{flex:1; order:2;padding:20px;}
 .artcilethree{flex:1; order:1;}
 
 
@@ -128,7 +129,8 @@ nav{margin-bottom:30px}
 
 /* Contact page */ 
 .header{text-align:center;}
-.googlemap{text-align:center;}
+.googlecontainer{display:flex; justify-content:center;flex-wrap:wrap; max-width:100%;margin:20px;}
+.googletext{text-align:center;}
 
 
 .requestform{text-align:center;}

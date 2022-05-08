@@ -11,7 +11,7 @@
 
 
 function SubscriberMessage(firstname){
-alert("Thanks for subscribing! A confirmation email was sent to"+firstname)
+alert("Thanks for subscribing! A confirmation email was sent to"+myformid)
 }
 
 
@@ -63,7 +63,7 @@ alert("Thanks for subscribing! A confirmation email was sent to"+firstname)
     <div class="enteremail">
     <form action="https://formspree.io/f/xwkyoqkl" method="post">
     <label for="Email"> Enter Your Email Here</label>
-    <input type = "text" name="Email" id= "Email"> <br>
+    <input type = "text" id="myformid" name="Email" id= "Email"> <br>
     <input class="signmeup" type="submit" value="Sign me up!">  
     </form>
     </div>
